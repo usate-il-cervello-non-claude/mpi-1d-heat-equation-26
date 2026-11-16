@@ -6,3 +6,5 @@
 # LDFLAGS += -L/path/to/libraries
 # LDLIBS += -lmy_library
 # Command-line assignments take precedence, e.g. make CFLAGS="-O2 -Wall".
+CFLAGS += -O3 -Wall
+LDLIBS += -lm
